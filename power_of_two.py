@@ -13,7 +13,7 @@ def main():
         user_number = int((user_input))
 
         for x in range(user_number):
-            print(math.sqrt(x))
+            print("{} = {}".format(x,x**2))
     except Exception:
         print("Invalid input")
 
